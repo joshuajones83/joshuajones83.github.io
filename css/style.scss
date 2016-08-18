@@ -4,8 +4,8 @@
 @import '../_sass/syntax-highlighting';
 
 
-$scotch-primary: rgb(255, 69, 69);
-$scotch-secondary: #FF7B7B;
+$scotch-primary: rgb(15, 74, 195);
+$scotch-secondary: #3774f0;
 
 %oswald { font-family: 'Oswald', sans-serif; }
 %roboto { font-family: 'Roboto Condensed', sans-serif; }
@@ -28,7 +28,7 @@ a {
     transition: all 225ms ease;
     color: $scotch-secondary;
 
-    &:hover { color: #6165FF; }
+    &:hover { color: lighten($scotch-secondary, 10); }
 }
 .btn {
     text-transform: uppercase;
@@ -37,7 +37,7 @@ a {
 }
 h1, h2, h3, h4, h5, h6 { @extend %oswald; }
 ::selection {
-    background: #086AFF;
+    background: lighten($scotch-secondary, 10);
     color: #fff;
 }
 nav.navbar {
@@ -58,7 +58,7 @@ nav.navbar {
         }
 
         &:hover i {
-            color: rgb(255, 111, 111);
+            color: lighten($scotch-primary, 20);
             transform: scale(1.35);
         }
     }
@@ -116,7 +116,7 @@ h1.special {
 
     h2 {
         margin: 0;
-        font-size: 100px;
+        font-size: 60px;
         font-weight: 400;
         letter-spacing: -0.05em;
         line-height: 100px;
@@ -255,7 +255,7 @@ aside {
         display: block;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 50%;
+        background-position: 50% 0%;
     }
 
     iframe {
