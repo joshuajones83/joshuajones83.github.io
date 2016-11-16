@@ -80,9 +80,9 @@ h1.special {
     margin: 0;
     text-transform: uppercase;
     @extend %oswald;
-    font-size: 69px;
-    line-height: 69px;
-    font-weight: 700;
+    font-size: 44px;
+    line-height: 44px;
+    font-weight: 400;
     color: $scotch-primary;
 
     span {
@@ -116,10 +116,11 @@ h1.special {
 
     h2 {
         margin: 0;
-        font-size: 60px;
-        font-weight: 400;
+        font-size: 40px;
+        font-weight: 300;
         letter-spacing: -0.05em;
-        line-height: 100px;
+        line-height: 60px;
+        text-transform: uppercase;
     }
 
     .featurette {
@@ -179,9 +180,9 @@ h1.special {
     }
 
     .excerpt {
-        font-size: 35px;
+        font-size: 24px;
         font-weight: 300;
-        line-height: 49px;
+        line-height: 36px;
         color: #484848;
 
         p {

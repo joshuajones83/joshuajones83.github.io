@@ -3,37 +3,46 @@ layout: inner
 title: About
 permalink: /about/
 ---
+# Joshua M. Jones
 
-We never thought of findin' a place where we belong. Don't have to stand alone, we'll never let you fall. Don't need permission to decide what you believe. You gotta learn something when we meet you after school. I said jump, down on Jump Street. I said jump, down on Jump Street. Your friends will be there when your back is to the wall. You'll find you'll need us cause there's no one else to call. When it was hopeless a decision is what you need. You'd better be ready cause' your runnin' outta time. Say jump, 21 Jump, Street.
+[Download Resume](/files/jjones_general.pdf)
 
-{% highlight javascript %}
-function meow() {
-    return 'meow';
-}
+Experienced, effective web application developer with 8+ years of experience building, maintaining, and enhancing 
+data driven and marketing web applications; self motivated, well versed in agile development methodologies, and 
+able to contribute at any point of a project.
 
-function bark() {
-    return 'woof';
-}
+## Experience
 
-function getRandomAnimal() {
+### Senior Developer | Power Agency
 
-    var animals = [
-        'cat',
-        'dog',
-        'hippo',
-        'lion',
-        'bear',
-        'zebra'
-    ];
+Worked with team on multiple concurrent large scale web projects. Migrated multiple projects to cloud based hosting 
+solutions with modern DevOps based release workflows (AWS, Heroku). Lead design, implementation, training and adoption 
+of JIRA for 100 users and worked to introduce Agile methodologies to projects. Built several custom web-based tools 
+for internal resource managers and project managers. Currently working to integrate Git/Jenkins based internal 
+DevOps workflow to development team.
 
-    return animals[Math.floor(Math.random()*animals.length)];
-}
+### Developer, UI/UX Designer | Freelance
 
-console.log(meow());
-console.log(bark());
-console.log(getRandomAnimal());
-{% endhighlight %}
+Various projects including construction firm’s invoice and work order management application, custom Wordpress 
+websites, design and development of Javascript tools for luxury travel online website.
 
-They arrived in fifty mother ships, offering their friendship and advance technology to Earth. Skeptical of the visitors, Mike Donovan and Juliet Parrish infiltrated their ranks and soon discovered some startling secrets. The resistance is all that stands between us... and the visitors.
+### Lead Developer | SwiftTrip/ALTOUR
 
-Once in every lifetime, comes a love like this. Oh I need you, you need me, oh my darling can't you see. Young Ones. Darling we're the Young Ones. Young Ones. Shouldn't be afraid. To live, love, there's a song to be sung. Cause we may not be the Young Ones very long.
+Responsible for several travel related web applications including an online travel booking system, travel planning 
+tool, fare analyzer, other ancillary travel utilities. Leader of core team of 5 developers, sys admin, QA/System 
+Analyst, and several offshore development groups.  Designer and architect for each application from DB, frameworks, 
+UI, and UX. UI/UX leader and manager for offshore iOS/Android development group for mobile applications.
+
+## Skills & Competencies
+
+### Development
+
+PHP, Javascript (Angular, Node, Vue.js), Java, DB/Storage (MySQL, Postgres, MsSQL, Redis), SOAP/REST APIs, Laravel, Drupal, Wordpress, CSS, HTML, Adobe Creative Suite.
+
+### DevOps
+
+Vagrant, Docker, Jenkins, git, svn, grunt, gulp, ruby, linux server (Apache, nginx, bind, etc), cloud services (AWS stack, Heroku, Digital Ocean), ssh/shell, firewalls & loadbalancers, puppet
+
+### Project Management
+
+Process analysis & change management, scoping & estimating, Jira administraion and customization, Agile methodologies (sprints, kanban, standups, retrospecitve, etc), documentation
